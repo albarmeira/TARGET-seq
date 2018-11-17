@@ -4,9 +4,13 @@
 
 Rodriguez-Meira et al. (citation pending)
 
-# TARGET-seq single cell genotyping pipeline
+# TARGET-seq single cell genotyping pipeline (SCpipeline)
 
 This pipeline provides an integrated framework for the analysis of single-cell targeted sequencing data obtained using TARGET-seq method. The pipeline processes raw fastq files (which can be gzip compressed) or aligned and sorted bam files, and outputs counts tables for every mutation assessed. 
+
+## Availability
+
+SCpipeline is freely available under a GPL3 license.
 
 ## How to run 
 
@@ -37,7 +41,7 @@ Replace </pathto/gPRIMERS.bed> with the path to the bed file containing chromoso
 Replace </pathto/mPRIMERS.bed> with the path to bed file containing chromosomal coordinates for each primer used to target genomic DNA amplicons. An example file used for analysis of 3'-TARGETseq dataset can be downloaded from this page (See "mPRIMERS.bed").
 
 ```VARIANTS </pathto/variants.tsv>``` 
-Replace </pathto/variants.tsv> with a tsv file containing coordinates of each point mutation/indel to be assessed. Start and end coordinates should be the same for all mutations, including indels. Position of insertions and deletions should be - 1bp the annotated position (identified through a bulk sequencing mutational calling pipeline). For example, ASXL1 c.2728_2729del, annotated in chr20:31023242, should be introduced in the variants.tsv file as chr20:31023241 (annotated position minus 1 base).
+Replace </pathto/variants.tsv> with a tsv file containing coordinates of each point mutation/indel to be assessed. Start and end coordinates should be the same for all mutations, including indels. Position of insertions and deletions should be - 1bp the annotated position (identified through a bulk sequencing mutational calling pipeline). For example, ASXL1 c.2728_2729del, annotated in chr20:31023242, should be introduced in the variants.tsv file as chr20:31023241 (annotated position minus 1 base). An example file used for analysis of 3'-TARGETseq dataset can be downloaded from this page (See "variants.tsv").
 
 ## Output directory 
 ```ANALYSIS_DIR </pathto/outdir/>``` 
