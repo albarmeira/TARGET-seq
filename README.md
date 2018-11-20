@@ -8,6 +8,8 @@ Rodriguez-Meira et al. (citation pending)
 
 This pipeline provides an integrated framework for the analysis of single-cell targeted sequencing data obtained using TARGET-seq method. The pipeline processes raw fastq files (which can be gzip compressed) or aligned and sorted bam files, and outputs counts tables for every mutation assessed. 
 
+Authors: Alba Rodriguez-Meira, Simon McGowan.
+
 ## Availability
 
 SCpipeline is freely available under a GPL3 license.
