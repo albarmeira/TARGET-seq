@@ -30,10 +30,10 @@ Directories and input files are specified through SCpipe.conf file:
 ```FASTQ_DIR </pathto/fastqdirectory/>```
 Replace </pathto/fastqdirectory/> with the path to directory in which all fastq files to be analyzed are stored
 
-```FASTQ_FWD_SUFFIX <*_LXX_RX_.fastq.gz>``` 
+```FASTQ_FWD_SUFFIX <_LXX_RX_.fastq.gz>``` 
 Replace <_LXX_R1.fastq.gz> with the suffix of read 1 files; in the case of MiSeq platform this is _L001_R1_001.fastq.gz
 
-```FASTQ_REV_SUFFIX  <*_LXX_RX_.fastq.gz>``` 
+```FASTQ_REV_SUFFIX  <_LXX_RX_.fastq.gz>``` 
 Replace <_LXX_R2.fastq.gz> with the suffix of read 2 files; in the case of MiSeq platform this is _L001_R2_001.fastq.gz
 
 ```gPRIMERS_BED </pathto/gPRIMERS.bed>``` 
