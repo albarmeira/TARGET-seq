@@ -1,4 +1,4 @@
-# TARGET-seq
+# TARGET-seq <img align="left" width="100" height="100" src="target.pdf">
 
 "Unravelling intratumoral heterogeneity through high-sensitivity single-cell mutational analysis and parallel RNA-sequencing"
 
