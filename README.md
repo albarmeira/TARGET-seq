@@ -1,4 +1,4 @@
-# TARGET-seq <img align="left" width="100" height="100" src="TARGET-seq/target.pdf">
+# TARGET-seq <img align="left" width="125" height="125" src="https://github.com/albarmeira/TARGET-seq/blob/master/target.png">
 
 "Unravelling intratumoral heterogeneity through high-sensitivity single-cell mutational analysis and parallel RNA-sequencing"
 
