@@ -1,0 +1,19 @@
+g*gene*$coverage	coverage of genomic amplicon for an specific gene
+g*gene*$MUTANT	percentage of mutant allele calls for an specific mutation in a genomic DNA amplicon
+m*gene*$coverage	coverage of cDNA amplicon for an specific gene
+m*gene*$MUTANT	percentage of mutant allele calls for an specific mutation in a genomic DNA amplicon
+cell.id	cell identifier
+donor	donor ID from the study
+donor.type	type of donor (patient/normal)
+primer.mix	primer mix used for targeted single-cell genotyping
+batch	batch of cDNA processing
+CD45RA	fluorescence intensity value for CD45RA marker (index sorting)
+CD90	fluorescence intensity value for CD90 marker (index sorting)
+CD38	fluorescence intensity value for CD38 marker (index sorting)
+lineage.viability	fluorescence intensity value for lineage and viability (index sorting)
+CD34	fluorescence intensity value for CD34 marker (index sorting)
+CD123	fluorescence intensity value for CD123 marker (index sorting)
+genotypesall	final genotype call used for analysis
+qcgenotype	genotyping QC result (only QC=TRUE included)
+*gene*	"(i.e., JAK2) Final genotype call for that particular point mutation"
+m*gene*	"(i.e., mJAK2) Final genotype call for that particular point mutation at the cDNA level only"
