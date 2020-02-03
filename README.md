@@ -14,6 +14,8 @@ Authors: Alba Rodriguez-Meira, Simon McGowan.
 
 You can find example scripts to process TARGET-seq whole transcriptome data in https://github.com/albarmeira/TARGET-seq-WTA/
 
+Processed targeted-single cell genotyping data can be downloaded from this page (3TARGETseq_processed_genotype_calls_legend; 3TARGETseq_processed_genotype_calls).
+
 ## Availability
 
 SCpipeline is freely available under a GPL3 license.
