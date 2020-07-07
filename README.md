@@ -1,10 +1,17 @@
 # TARGET-seq <img align="right" width="250" height="125" src="https://github.com/albarmeira/TARGET-seq/blob/master/target.png">
 
+
 "Unravelling intratumoral heterogeneity through high-sensitivity single-cell mutational analysis and parallel RNA-sequencing"
+
+Main article:
 
 Rodriguez-Meira, A., Buck, G., Clark, S.-A., Povinelli, B.J., Alcolea, V., Louka, E., McGowan, S., Hamblin, A., Sousos, N., Barkas, N., et al. (2018). Unraveling intratumoral heterogeneity through high-sensitivity single-cell mutational analysis and parallel RNA-sequencing. Molecular Cell.
 
 https://doi.org/10.1016/j.molcel.2019.01.009
+
+Protocol:
+
+Rodriguez-Meira, A., O'Sullivan, J., Rahman, H., Mead., AJ. "TARGET-Seq: A Protocol For High-Sensitivity Single-Cell Mutational Analysis and Parallel RNA Sequencing" 
 
 # TARGET-seq single cell genotyping pipeline (SCpipeline)
 
@@ -21,6 +28,18 @@ Processed targeted-single cell genotyping data can be downloaded from this page 
 SCpipeline is freely available under a GPL3 license.
 
 ## How to run 
+
+Pre-processing step
+
+If you are using the high-throughput barcoding method described in "TARGET-Seq: A Protocol For High-Sensitivity Single-Cell Mutational Analysis and Parallel RNA Sequencing", start by demultiplexing the sequencing run using:
+```
+GenoDemux_Fastq.sh
+```
+This will create two fastq files (R1 and R2) per cell. It requires a sample sheet (see example SampleSheet_byWell_TARGET.csv; same for every run) and a metadata spreadsheet specifying the barcodes assigned to each single cell (see example metadata_200325_NB501183.txt; unique per sequencing run). Then proceed to run the script SCgenotype.pl.
+
+This step requires bcl2fastq, fastq-tools and fastq-pair.
+
+Start here once you have individial fastq files per single cell.
 
 To run the pipeline, open the terminal and type:
 ```
